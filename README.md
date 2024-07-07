@@ -1,4 +1,5 @@
 # BERT Pipeline for Classification
+![](https://media.geeksforgeeks.org/wp-content/uploads/20230802120409/Single-Sentence-Classification-Task.png)
 
 This project involves building a BERT pipeline for classification using a pretrained BERT model for feature extraction and comparing the results with classical feature transformation techniques such as TF-IDF.
 
@@ -133,3 +134,9 @@ print("Accuracy using TF-IDF features:", accuracy_tfidf)
 
 The results are obtained by comparing the accuracy of a Logistic Regression model on aggregated BERT representations which was 77% and TF-IDF features which was 72%. 
 T-SNE plots are also provided for visual comparison.
+
+![](https://github.com/AmiraQadry/BERT-Pipeline-for-Classification/blob/main/T-SNE%20Plot%20for%20Aggregated%20Representation.png)
+T-SNE Plot for Aggregated Representation
+
+![](https://github.com/AmiraQadry/BERT-Pipeline-for-Classification/blob/main/T-SNE%20Plot%20for%20TF-IDF%20Features.png)
+T-SNE Plot for TF-IDF Features
